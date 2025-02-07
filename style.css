@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* header */
+
+header {
+  background-color: #1a2b4b;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+  border-bottom: 20px solid #b68954;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #b68954;
+  border-top: 5px solid #b68954;
+  border-bottom: 5px solid #b68954;
+  padding: 8px 0px;
+  transition: 0.4s ease;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+/* banner */
+
+.container-section-banner {
+  background-color: #1a2b4b;
+  display: flex;
+  justify-content: center;
+}
+
+.container-div-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.container-content-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 50%;
+}
+
+#image-justice {
+  width: 420px;
+}
+
+.title {
+  color: white;
+  font-size: 40px;
+  border-left: 8px solid #b68954;
+  padding-left: 18px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 24px;
+  color: white;
+  font-weight: 300;
+}
+
+.btn-whatsapp {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  background-color: #b68954;
+  padding: 15px 35px;
+  border-radius: 12px;
+  width: fit-content;
+}
