@@ -23,6 +23,20 @@ header {
   border-bottom: 20px solid #b68954;
 }
 
+#header-container{
+  display: flex;
+  flex-direction: row;
+}
+
+#menu-icon{
+  display: none;
+  cursor: pointer;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+}
 
 nav ul li a {
   color: white;
