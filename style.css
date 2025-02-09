@@ -177,6 +177,7 @@ nav ul {
   body {
     width: 100%;
     font-size: 14;
+    background-color: aqua;
   }
   #image-justice{
     display: none;
