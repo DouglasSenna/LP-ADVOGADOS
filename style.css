@@ -11,7 +11,7 @@ body {
 
 /* header */
 
-.container-global{
+.container-global {
   width: 100%;
 }
 
@@ -177,5 +177,8 @@ nav ul {
   body {
     width: 100%;
     font-size: 14;
+  }
+  .container-content-banner #image-justice{
+    display: none;
   }
 }
